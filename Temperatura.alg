@@ -1,11 +1,11 @@
 algoritmo "Temperatura"
 
 var
-   F, C: Real
+   Fahrenheit, Celsius: Real
 
 inicio
       Escreva ("Qual a temperatura aqui? ")
-      Leia (F)
-      C <- (F -32)/1.8
-      Escreva ("a temperatura em Graus celsius no Brasil é ", C)
+      Leia (Fahrenheit)
+      Celsius <- (Fahrenheit -32)/1.8
+      Escreva ("a temperatura em Graus celsius no Brasil é ", Celsius)
 fimalgoritmo
