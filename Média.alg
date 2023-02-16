@@ -10,9 +10,13 @@ inicio
       Leia (nota2)
       Media <- (nota1 + nota2)/2
       Se (media >= 7) entao
-         Escreva ("Parabéns, você foi aprovado")
+         Escreval("Parabéns, você foi aprovado")
       Senao
-         Escreva ("Infelizmente, você não foi aprovado")
+           Se (media >= 5) e (media <7) entao
+              Escreval ("Aluno em recuperação")
+           Senao
+              Escreval ("Infelizmente, você não foi aprovado")
+           FimSe
       FimSe
 
 fimalgoritmo
