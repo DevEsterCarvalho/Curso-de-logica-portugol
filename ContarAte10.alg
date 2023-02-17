@@ -7,7 +7,7 @@ var
    contador: inteiro
 inicio
       contador <- 0
-      EnquantO (contador <= 10) faca
+      Enquanto (contador <= 10) faca
       Escreval (contador)
       contador <- contador + 1
       FimEnquanto
