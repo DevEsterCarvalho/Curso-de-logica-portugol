@@ -8,9 +8,19 @@ inicio
       Enquanto (contador <= 5) faca
                Escreva ("Digite o ", contador, "o. valor: ")
                Leia (valor)
-               Se (valor > maior) entao
+               
+               Se contador = 1 entao
+                  menor <- valor
+               FimSe
+               
+               Se (valor >= maior) entao
                   maior <- valor
                FimSe
+               
+               Se (valor <= menor) entao
+                  menor <- valor
+               FimSe
+               
                soma <- soma + valor
                contador <- contador + 1
       FimEnquanto
