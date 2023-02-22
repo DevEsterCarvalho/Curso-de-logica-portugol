@@ -1,7 +1,7 @@
 algoritmo "Empréstimo"
 
 var
-   emprestimo, parcelas, valorComJuros, quantidade_parcelas: Real
+   emprestimo, parcelas, valorComJuros, quantidadeParcelas: Real
 inicio
       Escreva ("Qual o valor do empréstimo? ")
       Leia (emprestimo)
@@ -9,8 +9,8 @@ inicio
       Escreval ("o valor do emprestimo com 20% de juros é de", valorComJuros)
       Escreva ("Em quantas parcelas? ")
       Leia (parcelas)
-      quantidade_parcelas <- (valorComJuros/parcelas)
-      Escreval ("Irei pagar", parcelas , " parcelas de", quantidade_parcelas, "R$")
+      quantidadeParcelas <- (valorComJuros/parcelas)
+      Escreval ("Irei pagar", parcelas , " parcelas de", quantidadeParcelas, "R$")
       
 
 fimalgoritmo
