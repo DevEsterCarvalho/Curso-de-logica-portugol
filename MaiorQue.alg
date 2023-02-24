@@ -2,13 +2,13 @@ algoritmo "MaiorQue"
 
 
 var
- VA, VB, VC: Inteiro
+ VariavelA, VariavelB, VariavelC: Inteiro
 
 inicio
-      VA <- 10
-      VB <- 14
-      VC <- 6
-      Escreva (VA>=10)
+      VariavelA <- 10
+      VariavelB <- 14
+      VariavelC <- 6
+      Escreva (VariavelA>=10)
 
 
 fimalgoritmo
