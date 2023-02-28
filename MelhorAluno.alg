@@ -6,7 +6,7 @@ algoritmo "MelhorAluno"
 var
      alunos, contador: inteiro
      nome: caractere
-     nota: real
+     nota, maior: real
 
 inicio
 
@@ -15,8 +15,13 @@ inicio
                Enquanto contador < alunos faca
                         Escreva ("Nome do aluno: ")
                         Leia (nome)
-                        Escreval ("Nota do aluno: ")
+                        Escreva ("Nota do aluno: ")
                         Leia (nota)
+                             Se (nota > maior) entao
+                                maior <- nota
+                             FimSe
                         contador <- contador + 1
                FimEnquanto
+      Escreva ("O melhor aproveitamento foi de: ", nome , "com a nota ", maior)
+               
 fimalgoritmo
