@@ -4,7 +4,8 @@ var
    contador, numero, resposta: inteiro
 inicio
       contador  <- 1
-      numero <- 7
+      Escreva ("Quer saber a tabuada de qual número? ")
+      Leia (numero)
       Repita
             Resposta <- numero * contador
             Escreval (numero, " x ", contador, " = ", resposta)
