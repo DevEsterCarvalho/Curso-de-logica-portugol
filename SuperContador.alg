@@ -1,10 +1,8 @@
 algoritmo "SuperContador"
-// Função :
-// Autor :
-// Data : 02/03/2023
-// Seção de Declarações 
+
+
 var
-   contador, resposta: inteiro
+   resposta, contador: inteiro
 inicio
       Escreval ("=================")
       Escreval ("|     MENU      |")
@@ -14,21 +12,21 @@ inicio
       Escreval ("| [3]   Sair    |")
       Leia (resposta)
       Se (resposta = 1) entao
-         contador <- 1
-         enquanto (contador <= 10) faca
-                  Escreva (contador)
-                  contador <- contador + 1
-         FimEnquanto
+         contador <- 0
+         Repita
+               contador <- contador + 1
+               Escreva (contador)
+         Ate (contador = 10)
       Senao
            Se (resposta = 2) entao
-              contador <- 10
-              enquanto (contador >= 1) faca
-                       Escreva (contador)
-                       contador <- contador - 1
-              FimEnquanto
+              contador <- 11
+              Repita
+                    contador <- contador - 1
+                    Escreva (contador)
+              Ate (contador = 1)
            Senao
                 Se (resposta = 3) entao
-                   LimpaTela
+                   Escreva ("Saindo...")
                 FimSe
            FimSe
       FimSe
