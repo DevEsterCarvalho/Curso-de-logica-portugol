@@ -29,7 +29,7 @@ inicio
               Outrocaso
                    novoSalario <- salario + (salario*18/100)
       FimEscolha
-      Escreva ("O novo salário do funcionário será: ", novoSalario)
+      Escreva ("O novo salário do funcionário será: ", novoSalario:5:2)
 
 
 fimalgoritmo

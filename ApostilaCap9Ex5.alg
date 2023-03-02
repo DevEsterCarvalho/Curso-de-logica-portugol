@@ -14,5 +14,5 @@ inicio
       Escreva ("Em quanto tempo? ")
       Leia (tempo)
       velocidade <- distancia/tempo
-      Escreva ("A velocidade média do ", nome , "foi ", velocidade , "km/h.")
+      Escreva ("A velocidade média de ", nome , " foi ", velocidade , "km/h.")
 fimalgoritmo

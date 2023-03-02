@@ -11,5 +11,5 @@ inicio
       Escreva ("Escreval o valor da altura: ")
       Leia (altura)
       volume <- PI* raio^2*altura
-      Escreva ("o volume da caixa dágua é: ", volume)
+      Escreva ("o volume da caixa dágua é: ", volume:5:2)
 fimalgoritmo
