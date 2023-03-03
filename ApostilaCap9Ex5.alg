@@ -9,7 +9,7 @@ var
 inicio
       Escreva ("Nome do piloto: ")
       Leia (nome)
-      Escreva ("Qual a distancia percorrida? ")
+      Escreva ("Qual a distância percorrida? ")
       Leia (distancia)
       Escreva ("Em quanto tempo? ")
       Leia (tempo)

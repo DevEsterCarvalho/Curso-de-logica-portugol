@@ -10,7 +10,7 @@ inicio
       Leia (nome)
       Escreva ("Horas trabalhadas: ")
       Leia (horas)
-      Escreva ("Qual é o valor hora: ")
+      Escreva ("Valor hora: ")
       leia (valorHora)
       Escreva ("Quantidade de filhos: ")
       Leia (filhos)
