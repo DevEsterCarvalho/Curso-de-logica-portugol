@@ -1,4 +1,4 @@
-algoritmo "NúmerosPares"
+algoritmo "NúmerosParesRegressiva"
 // Função :
 // Autor :
 // Data : 06/03/2023
@@ -8,7 +8,10 @@ var
 inicio
       Escreva("Digite um valor: ")
       Leia (valor)
-      Para contador <- 0 ate valor passo 2 faca
+      Se valor %2=1 entao
+         valor <- valor -1
+      FimSe
+      Para contador <- valor ate 0 passo -2 faca
            Escreval (contador)
       FimPara
 fimalgoritmo
