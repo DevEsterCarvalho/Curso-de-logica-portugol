@@ -11,4 +11,5 @@ inicio
       FimPara
 
 //contador com estrutura de repetição PARA
+// sendo "passo 1" opcional, já que ele contaria de 1 em 1, caso queira dar um salto de 2 em 2, basta mudar o passo de 1 para 2.
 fimalgoritmo
