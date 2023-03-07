@@ -6,7 +6,7 @@ algoritmo "semnome"
 var
    grupo, feminino, masculino: inteiro
    nome, sexo, nomePessoa: caractere
-   altura, peso, porcentagem, porcentagem2, media, mediaPessoa, maior, contador: real
+   altura, peso, porcentagem, porcentagem2, mediaPeso, maior, contador: real
 inicio
       Repita
            Escreva ("Nome da pessoa: ")
@@ -25,11 +25,11 @@ inicio
                       masculino <- masculino + 1
                    FimSe
            FimSe
-           porcentagem <- 100*feminino/250
-           porcentagem2 <- 100*masculino/250
-         //editar porcentagem
+           porcentagem <- 100*feminino/5
+           porcentagem2 <- 100*masculino/5
+
            
-           mediaPessoa <- media+ peso/250
+           mediaPeso <- mediaPeso + peso/5
            // editar media
            
            Enquanto altura > contador faca
@@ -38,8 +38,8 @@ inicio
 
            FimEnquanto
       Ate grupo >= 5
-      Escreval ("Quantidade de homens: ", masculino, porcentagem2, " % ")
-      Escreval ("Quantidade de mulheres: ", feminino, porcentagem, " %  ")
-      Escreval ("A media de peso das pessoas foi de: ", media)
+      Escreval ("Quantidade de homens: ",masculino, " representando ",porcentagem2, " % ")
+      Escreval ("Quantidade de mulheres: ",feminino, " representando ",porcentagem, " %  ")
+      Escreval ("A media de peso das pessoas foi de: ", mediaPeso, "KG")
       Escreval ("A pessoa mais alta foi: ", nomePessoa)
 fimalgoritmo
