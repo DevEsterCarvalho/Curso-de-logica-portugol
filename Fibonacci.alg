@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "sequenciaFibonacci"
 // Função :
 // Autor :
 // Data : 06/03/2023
