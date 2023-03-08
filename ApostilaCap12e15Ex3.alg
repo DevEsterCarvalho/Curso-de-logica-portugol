@@ -18,9 +18,9 @@ inicio
                 FimSe
            Fimpara
            Se (somaDiv = numero) entao
-              Escreva ("Esse número é perfeito!")
+              Escreval ("Esse número é perfeito!")
               Senao
-                   Escreva ("Esse número não é perfeito!")
+                   Escreval ("Esse número não é perfeito!")
            FimSe
       FimPara
 
