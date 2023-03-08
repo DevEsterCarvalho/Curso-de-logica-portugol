@@ -5,8 +5,8 @@ algoritmo "semnome"
 // Seção de Declarações 
 var
    valor1, valor2, valor3, valor4, valor5, valor6, valor7, valor8, valor9, valor10: inteiro
-   numero, quadrado, cubo, calDiv, divisores: inteiro
-   primo: caractere
+   numero, quadrado, cubo, fatorial, contador, calDiv, divisores: inteiro
+   primo : caractere
 inicio
     valor1 <- 1
     valor2 <- 2
@@ -18,6 +18,7 @@ inicio
     valor8 <- 8
     valor9 <- 9
     valor10 <- 10
+    Escreval (" Número ", " Quadrado ", " Cubo ", " Fatorial ", " Divisores ", " Primo ")
     para numero de 1 ate 10 faca
           quadrado <- numero*2
           
@@ -27,11 +28,12 @@ inicio
           contador <- numero
           Repita
                 fatorial <- fatorial * contador
-          Ate (contador <1)
+                contador <- contador - 1
+          Ate (contador < 1)
           
           // calcuo divisores
           para calDiv de 1 ate numero faca
-               se (numero % calDiv = 0 faca
+               se (numero % calDiv = 0) entao
                   divisores <- divisores + 1
                FimSe
           FimPara
@@ -41,8 +43,7 @@ inicio
              Senao
                   primo <- ("Sim")
           FimSe
-          FimPara
+          Escreval (numero, quadrado, cubo, fatorial, divisores , primo)
      FimPara
-     Escreva (" Número ", " Quadrado ", " Cubo ", " Fatorial ", " Divisores ", " Primo ")
 fimalgoritmo
 
