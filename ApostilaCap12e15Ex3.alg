@@ -4,25 +4,24 @@ algoritmo "semnome"
 // Data : 07/03/2023
 // Seção de Declarações 
 var
-   a, valor, soma: inteiro
-   //bloco a, b e c de para
-   metade: real
+   a, b, numero, somaDiv: inteiro
+   //bloco a e b de para
+   numeroPar: real
 inicio
-      Repita
-      Escreva ("digite um valor: ")
-      Leia (valor)
       para a de 1 ate 4 faca
-      Se valor %2 = 0 entao
-         numeroPar <- valor
-      FimSe
-      para b de 1 ate
-      
-         Se (soma = valor) entao
+           Escreval ("digite um valor: ")
+           Leia (numero)
+           somaDiv <- 0
+           para b de 1 ate (numero-1) faca
+                Se numero %b = 0 entao
+                   somaDiv <- somaDiv + b
+                FimSe
+           Fimpara
+           Se (somaDiv = numero) entao
               Escreva ("Esse número é perfeito!")
-           Senao
-                Escreva ("Esse número não é perfeito!")
+              Senao
+                   Escreva ("Esse número não é perfeito!")
            FimSe
-              
       FimPara
-      Ate soma = 4
+
 fimalgoritmo
