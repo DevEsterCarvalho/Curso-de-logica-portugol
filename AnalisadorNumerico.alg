@@ -24,9 +24,9 @@ inicio
               somaPares <- somaPares + valores
            FimSe
       FimPara
-      Escreval ("A soma entre os valores é: ", soma)
-      Escreval ("A média entre os valores é: ", media)
-      Escreval ("Valores divisivéis por 5: ", valorDiv)
-      Escreval ("Valores nulos: ", nulo)
-      Escreval ("A soma dos valores pares é: ", somaPares)
+      Escreval ("A soma entre os valores é:", soma)
+      Escreval ("A média entre os valores é:", media)
+      Escreval ("Valores divisivéis por 5:", valorDiv)
+      Escreval ("Valores nulos:", nulo)
+      Escreval ("A soma dos valores pares é:", somaPares)
 fimalgoritmo
