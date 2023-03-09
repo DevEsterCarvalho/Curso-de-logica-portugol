@@ -4,13 +4,14 @@ algoritmo "Desafio"
 // Data : 08/03/2023
 // Seção de Declarações 
 var
-   valor1, valor2, resposta, contador: inteiro
-   mmc, mdc, maior, menor: real
+   valor1, valor2, resposta, contador, mmc, mdc: inteiro
+
 inicio
       Escreva ("Digite um valor: ")
       Leia (valor1)
       Escreva ("Digite um valor: ")
       Leia (valor2)
+      Escreva ("O MMC e MDC de ", valor1, " e", valor2, " é: ")
       resposta <- 1
       contador <- 2
       Enquanto (valor1+valor2= 2) faca
@@ -28,19 +29,14 @@ inicio
       FimEnquanto
       MMC <- resposta
       
-      Se (valor1 > valor2) entao
-         maior <- valor1
-         menor <- valor2
-         SeNao
-              maior <- valor2
-              menor <- valor1
-      FimSe
-      Enquanto (maior % menor > 0) faca
-      mdc <- menor
-      menor <- maior % menor
-      maior <- mdc
+
+      Enquanto (valor2 <> 0) faca
+               mdc <- valor1 % valor2
+               valor1 <- valor2
+               valor2 <- mdc
       Fimenquanto
-      
+      mdc <- valor1
+      Escreva (MMC, MDC)
       
       
       
