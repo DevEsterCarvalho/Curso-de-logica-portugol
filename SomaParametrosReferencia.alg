@@ -5,7 +5,7 @@ algoritmo "SomaParametrosReferencia"
 // Seção de Declarações 
 var
    valor1, valor2: inteiro
-Procedimento Soma (a, b: inteiro)
+Procedimento Soma (var a, b: inteiro)
 inicio
       a <- a + 1
       b <- b + 2
