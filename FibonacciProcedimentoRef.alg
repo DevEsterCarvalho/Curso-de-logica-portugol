@@ -18,7 +18,6 @@ inicio
       escreva (T1)
       T2 <- 1
       Escreva (T2)
-      Escreva (T2)
       Para c := 3 ate 10 faca
            ProximoFibonacci (t1, t2)
       Fimpara
