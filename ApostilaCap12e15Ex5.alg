@@ -8,16 +8,6 @@ var
    numero, quadrado, cubo, fatorial, contador, calDiv, divisores: inteiro
    primo : caractere
 inicio
-    valor1 <- 1
-    valor2 <- 2
-    valor3 <- 3
-    valor4 <- 4
-    valor5 <- 5
-    valor6 <- 6
-    valor7 <- 7
-    valor8 <- 8
-    valor9 <- 9
-    valor10 <- 10
     Escreval (" Número ", " Quadrado ", " Cubo ", " Fatorial ", " Divisores ", " Primo ")
     para numero de 1 ate 10 faca
           quadrado <- numero*2
@@ -43,7 +33,7 @@ inicio
              Senao
                   primo <- ("Sim")
           FimSe
-          Escreval (numero, quadrado, cubo, fatorial, divisores , primo)
+          Escreval (numero :4, quadrado :10, cubo:8, fatorial:8, divisores:10 ,primo:10)
      FimPara
 fimalgoritmo
 
