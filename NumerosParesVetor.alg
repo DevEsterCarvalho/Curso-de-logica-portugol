@@ -11,8 +11,12 @@ inicio
       para contador de 1 ate 7 faca
            Escreva ("Digite o ", contador, "o. valor: ")
            Leia (valor[contador])
-           Se   (valor[contador] % 2 = 0) entao
-                totalPares <- totalPares + 1
+      FimPara
+      
+      para contador de 1 ate 7 faca
+           Se (valor[contador] % 2 = 0) entao
+              totalPares <- totalPares + 1
+              Escreval ("o numero par está na posição: ", contador)
            FimSe
       FimPara
       Escreva ("O total de pares foi de: ", totalPares)
