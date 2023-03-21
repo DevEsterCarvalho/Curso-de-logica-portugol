@@ -13,5 +13,12 @@ inicio
                 Leia (mat[linha,coluna])
            Fimpara
       FimPara
+      
+      para linha de 1 ate 3 faca
+           para coluna de 1 ate 2 faca
+                Escreva  (mat[linha,coluna]:2)
+           FimPara
+           Escreval ()
+      FimPara
 
 fimalgoritmo
