@@ -18,7 +18,14 @@ inicio
                    media <- soma/ totPar
                 FimSe
            FimPara
-           Escreval ()
       FimPara
+      
+      para l de 1 ate 5 faca
+           Para c de 1 ate 6 faca
+               Escreva(m[l,c]:4)
+           Fimpara
+           escreval ()
+      FimPara
+      
       Escreva ("A média dos valores contidos na matriz foi: ", media:3:2 )
 fimalgoritmo
