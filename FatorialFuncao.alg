@@ -18,7 +18,7 @@ Inicio
 FimFuncao
 
 inicio
-      Escreva ("Diite um numero: ")
+      Escreva ("Digite um numero: ")
       Leia (numero)
       f <- fatorial (numero)
       Escreva ("O valor do numero ", numero, " !é igual a ", f)
